@@ -21,12 +21,6 @@ namespace BetterRoom
             HarmonyPatches.ApplyHarmonyPatches();
         }
 
-        void Update()
-        {
-            if (PhotonNetwork.InRoom)
-                playerThing = "";
-        }
-
         public bool ProcessRoomState(GorillaKeyboardBindings buttonPressed)
         {
             playerThing = "";
