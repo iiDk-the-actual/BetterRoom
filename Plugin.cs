@@ -45,6 +45,8 @@ namespace BetterRoom
             playerThing = "";
             running = true;
 
+            GorillaComputer.instance.roomFull = false;
+
             Dictionary<string, string> cosmetics = new Dictionary<string, string> { { "LBAAD.", "ADMINISTRATOR BADGE" }, { "LBAAK.", "MOD STICK" }, { "LBADE.", "FINGER PAINTER BADGE" }, { "LBAGS.", "ILLUSTRATOR BADGE" }, { "LMAPY.", "FOREST GUIDE MOD STICK" } };
 
             GorillaComputer.instance.UpdateScreen();
